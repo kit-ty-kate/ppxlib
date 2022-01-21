@@ -1,9 +1,9 @@
 module Caml = Stdlib
 open Caml
 open StdLabels
-module Sexp = Sexplib0.Sexp
-module Sexpable = Sexplib0.Sexpable
-include Sexplib0.Sexp_conv
+module Sexp = Sexp
+module Sexpable = Sexpable
+include Sexp_conv
 
 module type Comparisons = sig
   type t
@@ -30,7 +30,7 @@ module type Comparisons = sig
 end
 
 module Poly = struct
-  let compare = compare
+  let compare = Stdlib.compare
 
   let equal = ( = )
 

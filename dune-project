@@ -18,7 +18,6 @@
   (ocaml (and (>= 4.04.1) (< 5.01)))
   (ocaml-compiler-libs (>= v0.11.0))
   (ppx_derivers (>= 1.0))
-  (sexplib0 (>= v0.12))
   stdlib-shims
   (ocamlfind :with-test)
   (re (and :with-test (>= 1.9.0)))

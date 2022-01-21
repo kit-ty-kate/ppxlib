@@ -1,6 +1,6 @@
 (library
  (name stdppx)
  (public_name ppxlib.stdppx)
- (libraries sexplib0 stdlib-shims)
+ (libraries stdlib-shims)
  (flags
   (:standard -safe-string)))
