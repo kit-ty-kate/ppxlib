@@ -22,8 +22,7 @@
   (ocamlfind :with-test)
   (re (and :with-test (>= 1.9.0)))
   (cinaps (and :with-test (>= v0.12.1)))
-  (base :with-test)
-  (stdio :with-test))
+  (base :with-test))
  (conflicts
   (ocaml-migrate-parsetree (< 2.0.0))
   base-effects)

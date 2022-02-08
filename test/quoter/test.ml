@@ -1,5 +1,3 @@
-#require "base";;
-
 open Ppxlib
 
 module Ast = Ast_builder.Default
